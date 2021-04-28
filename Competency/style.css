@@ -1,0 +1,87 @@
+body {
+    font-family: 'Antonio', sans-serif;
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+    position:relative;
+    background-color: lightsteelblue;
+}
+
+h1 {
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+}
+
+button {
+    margin: 1rem;
+}
+
+.item-input {
+    position: absolute;
+    top: 7.5rem;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.item-input label {
+    font-size: 1.5rem;
+}
+
+.add {
+    position: absolute;
+    top:10rem;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#delete-btn {
+    /*    display: none;*/
+    position: absolute;
+    margin-top: 2rem;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+#list-container {
+    position: absolute;
+    top: 17rem;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    width: 50%;
+}
+
+#list-item {
+    background-color:rgb(230, 230, 230);
+    width: 20rem;
+}
+.me-1 {
+    margin-right: 10rem;
+}
+
+.del {
+    width: 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:0;
+    position: absolute;
+    right:0;
+
+}
+
+li {
+    margin-top: 1rem;
+}
+
+.line-out {
+    background-color:lightgray;
+    color:darkgray;
+    text-decoration: line-through;
+}
